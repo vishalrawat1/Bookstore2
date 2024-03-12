@@ -27,10 +27,7 @@ app.get('/' , (req ,res)=>{
 app.use('/books' , booksroutes);
 
 // ---- db ----------------------
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
 mongoose.connect(mongoDBURL).then(()=>{
 console.log("app connected to db");
 app.listen(PORT, (req , res) => {
