@@ -12,7 +12,7 @@ const AddBook = () => {
       author,
       publishyear,
     }
-    axios.post('http://localhost:5555/books',data)
+    axios.post('https://bookstore2-d9fv.onrender.com/books',data)
     .catch((error)=>{
       console.log(error);
     })
