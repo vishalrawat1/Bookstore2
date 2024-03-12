@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://master--abcxxxx.netlify.app',
     methods: ['GET' , 'POST' ,'PUT' , 'DELETE'],
     allowedHeaders: ['Content-Type'],
   })
